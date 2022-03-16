@@ -1,0 +1,102 @@
+{
+  "db": [{
+      "Version": "LAST_VERSION",
+      "NewFeatures": ["Added Base Module BogieIQ"],
+      "ResolvedIssues": [
+        "Fixed refresh issue losing grid content",
+        "Multiple minor formatting/labeling fixes"
+      ]
+    },
+    {
+      "Version": "4.3.0.3",
+      "NewFeatures": [
+        "Added the following fields to Active Trips: \"Temperature °F\", \"Ambient Temperature °F\" & \"Temperature Date\"."
+      ],
+      "ResolvedIssues": [
+        "Fixed an occasional timeout in Manage Railcars",
+        "Fixed a bug with interaction between graphs and data grid in the Securement app",
+        "Improved filtering options within Active Trips for date columns"
+      ]
+    },
+    {
+      "Version": "4.3.0.1",
+      "NewFeatures": [],
+      "ResolvedIssues": [
+        "Resolved several incorrect translations",
+        "Adjusted spacing for labels, at the bottom of some graphs"
+      ]
+    },
+    {
+      "Version": "4.3.0.0",
+      "NewFeatures": [
+        "Reorganized our menu to categorize applications as \"Shipment\", \"Asset\", and \"Onboard Devices\"",
+        "New user interface for reviewing a customer's own railcars",
+        "New user interface for reviewing a customer's own devices, and assigning them to railcars",
+        "New user interface to show completed trips information and route on a map",
+        "Refactor of 'ETA' application to use the OneView service. This service allows a user to customize fields shown in user-saved reports, and to deliver these reports as emails on an automatic schedule."
+      ],
+      "ResolvedIssues": []
+    },
+    {
+      "Version": "4.2.8.2",
+      "NewFeatures": [
+        "Enhanced “select all/none” checkbox",
+        "Style for all buttons updated",
+        "Filter icon updated with active highlight",
+        "New Device Application now available. Includes summary list with export capability, and a detail view"
+      ],
+      "ResolvedIssues": []
+    },
+    {
+      "Version": "4.2.8.1",
+      "NewFeatures": [],
+      "ResolvedIssues": [
+        "Fixed the enable/disable option for new features within applications"
+      ]
+    },
+    {
+      "Version": "4.2.8",
+      "NewFeatures": [
+        "Dynamic Tracking & ETA Application - Waybill details now shown in an overlay, which enables toggling between asset trips without a page refresh"
+      ],
+      "ResolvedIssues": [
+        "Cycle & Route applications updated to resolve issue within the investigate tab, where the origin/destination filter was ignored"
+      ]
+    },
+    {
+      "Version": "4.2.7.1",
+      "NewFeatures": [],
+      "ResolvedIssues": [
+        "Dynamic Tracking Application - Multiple asset selection filter now functions the same as global filters",
+        "Selecting assets that cannot have their destination changed now shows a red warning in the side bar",
+        "Selecting “all” when filtering will now only select filtered trips",
+        "Geofence Editor Application - Updates to avoid accidental page navigation that could disrupt Geofence editing",
+        "Hiding/Showing columns while modifying a geofence will no longer cause unexpected functionality",
+        "Filtering the grid and then adding a new geofence now clears grid filters so that the user can see the geofence they are adding"
+      ]
+    },
+    {
+      "Version": "4.2.7",
+      "NewFeatures": [
+        "Dynamic Tracking Application - User can now select destination for ETA",
+        "Updates to Geofence Editor application, now includes list for managing geofences",
+        "Updated Map zoom level on event selection"
+      ],
+      "ResolvedIssues": [
+        "Resolved issue with date sorting",
+        "Fixed issue with histogram charts sort order"
+      ]
+    },
+    {
+      "Version": "4.2.6",
+      "NewFeatures": [
+        "Improved Date Filter performance in Firefox",
+        "Updated blank values to be filterable via a dash (-)",
+        "Added CLM Sighting Date and Care Of Party columns to the Dynamic Tracking application"
+      ],
+      "ResolvedIssues": [
+        "Resolved issue that caused the calendar to overlap other filters"
+      ]
+    }
+  ]
+}
